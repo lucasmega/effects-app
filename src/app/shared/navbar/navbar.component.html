@@ -14,9 +14,7 @@
     </ul>
 
     <div class="form-inline my-2 my-lg-0">
-      <input #txtInput
-            (keyup.enter)="irUsuario( txtInput.value )"
-             class="form-control mr-sm-2" type="search" placeholder="ID usuario">
+      <input #txtInput (keyup.enter)="irUsuario( txtInput.value )" class="form-control mr-sm-2" type="search" placeholder="ID usuario">
       <button (click)="irUsuario( txtInput.value )" class="btn btn-outline-success my-2 my-sm-0" type="button">Buscar</button>
     </div>
   </div>
